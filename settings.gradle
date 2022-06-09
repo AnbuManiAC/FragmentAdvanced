@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "FragmentAdvanced"
+include ':ViewPager'
+include ':navdrawer'
+include ':navdrawerdefault'
+include ':bottomnav'
+include ':viewpager2'
+include ':toolbar'
+include ':navigation-master'
+include ':viewpager22'

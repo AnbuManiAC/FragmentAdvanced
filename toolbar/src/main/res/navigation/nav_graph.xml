@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:label="Home"
+        android:name="com.example.toolbar.HomeFragment"/>
+
+    <fragment
+        android:id="@+id/settings"
+        android:label="Settings"
+        android:name="com.example.toolbar.SettingsFragment"/>
+
+    <fragment
+        android:id="@+id/terms_condition"
+        android:label="T &amp; C"
+        android:name="com.example.toolbar.TCFragment"/>
+
+</navigation>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.navigation_master.HomeFragment"
+        android:label="Home"
+
+        />
+
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.navigation_master.AboutFragment"
+        android:label="About"/>
+
+    <fragment
+        android:id="@+id/bookmark"
+        android:name="com.example.navigation_master.BookmarkFragment"
+        android:label="Bookmark" />
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.navigation_master.SettingsFragment"
+        android:label="Settings"/>
+
+    <fragment
+        android:id="@+id/contactus"
+        android:name="com.example.navigation_master.ContactusFragment"
+        android:label="Contact us"/>
+
+    <fragment
+        android:id="@+id/help"
+        android:name="com.example.navigation_master.HelpFragment"
+        android:label="Help"/>
+
+</navigation>

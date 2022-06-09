@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ViewPager" />
+            <option value="$PROJECT_DIR$/bottomnav" />
+            <option value="$PROJECT_DIR$/navdrawer" />
+            <option value="$PROJECT_DIR$/navdrawerdefault" />
+            <option value="$PROJECT_DIR$/navigation-master" />
+            <option value="$PROJECT_DIR$/toolbar" />
+            <option value="$PROJECT_DIR$/viewpager2" />
+            <option value="$PROJECT_DIR$/viewpager22" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
